@@ -24,11 +24,6 @@ const Projects = () => {
           title="Task Management Application"
           link="https://task-management-system-client-nine.vercel.app/"
         />
-        {/* <ProjectCard
-          img={cyberBlog.src}
-          title="Cyber Security"
-          link="https://task-management-system-client-nine.vercel.app/"
-        /> */}
         <ProjectCard
           img={pssFoundation.src}
           title="PSS Foundation Website"
