@@ -1,12 +1,11 @@
-/** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
-  output: "export",
   images: {
-    unoptimized: true,
+    unoptimized: true, // This is fine if you're not using the next/image optimization
   },
-  assetPrefix: isProd ? "/" : "", // Change this line
-  basePath: "", // Change this line
-  trailingSlash: true,
+  assetPrefix: isProd ? "/" : "",
+  basePath: "", // Keep this if you're not deploying under a subdirectory
+  trailingSlash: true, // Adds a trailing slash to the URLs
 };
+
 module.exports = nextConfig;
