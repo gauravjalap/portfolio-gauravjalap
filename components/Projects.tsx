@@ -5,7 +5,7 @@ import chatbot from "../public/img/projects/chatbot.webp";
 import vSorting from "../public/img/projects/vSorting.webp";
 import pathFind from "../public/img/projects/pathFind.webp";
 import todo from "../public/img/projects/todo.webp";
-import dashboard from "../public/img/projects/dashboard.webp";
+import fooddel from "../public/img/projects/fooddel.webp";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 
@@ -15,7 +15,7 @@ const Projects = () => {
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
-          img={pssFoundation.src}
+          img={fooddel.src}
           title="Food Delivery Website"
           link="https://feastflies.gauravjalap.me/"
         />
