@@ -12,17 +12,17 @@ const Experience = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <ExperienceCard
           title="ApexIQ"
-          subTitle="Web Developer Intern - Present"
+          subTitle="Software Developer Intern - Present"
           icon={<FaBrain />}
         />
         <ExperienceCard
           title="PSS Foundation"
-          subTitle="Web Developer Intern 2023"
+          subTitle="Software Developer Intern 2023"
           icon={<FaHandsHelping />}
         />
         <ExperienceCard
           title="Exposys Data Labs"
-          subTitle="Web Developer Intern 2023"
+          subTitle="Software Developer Intern 2023"
           icon={<FaDatabase />}
         />
 
